@@ -1,0 +1,12 @@
+<launch>
+  <arg name="dataset_name" default="/home/derek/Desktop/m6_data/"/>
+  
+	<node pkg="m6_runtime_visual" type="visual_node" name="visual_node"  output="screen">
+  	  <param name="dataset" value="$(arg dataset_name)" />
+      <param name="left_scan" value="/scan_left" />
+      <param name="right_scan" value="/scan_right" />
+      <param name="odom_transform_tolerance" value="3.0" />
+      <param name="map_frame" value="map" /> 
+	</node>
+    
+</launch>

@@ -1,0 +1,5 @@
+1. Add point cloud smoothing
+2. provide service to register/concatenate two point clouds
+3. provide service to visualize generated cloud
+4. Interfacing with GUI
+5. Save wifi record for localization
